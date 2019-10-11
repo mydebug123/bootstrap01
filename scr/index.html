@@ -15,6 +15,9 @@
       function logoin(){
         window.location.href="logoin.html";
       }
+      function logo(){
+        window.location.href="index.html";
+      }
     </script>
 </head>
 <body>
@@ -22,7 +25,7 @@
     <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#">
-                      <img src="../img/whlogo.png" >
+                      <img src="../img/whlogo.png"  onclick="logo()">
                       主页</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -107,9 +110,7 @@
                         </div>
                       </div>
                   <div class="container text-center">
-                      <div class="row">
-
-                      </div>
+                      <div class="row"></div>
                   </div>
     </header>
     <!-- 主体图文区 -->
@@ -161,50 +162,7 @@
                 </div>
                 </div>
             </div>
-            <!-- 图片展示区 -->
-            <div class="container-fluid ">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-12  " >
-                        <div class="h1 mr-lg-2 bg mb-2">
-                                <p>abc</p>
-                                <div class=" a1">
-                                  <div><img src="../img/tx.png" class="img"></div>
-                                  <div class=""><a href="#">摄影师吴浩</a></div>
-                                  <div><img src="../img/like.png" class="img1"></div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 px-0">
-                        <div class="h1  mr-2 mb-2"></div>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 px-0">
-                        <div class="h1 mr-2 mb-2"></div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 px-0">
-                        <div class="h2 mr-lg-2 "></div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 px-0">
-                        <div class="h2 mr-2 "></div>
-                    </div>
-                    <div class="col-lg-5 col-sm-12 px-0">
-                        <div class="h3 mr-lg-2 "></div>
-                    </div>
-                    <div class="col-lg-7 col-sm-12 px-0">
-                        <div class="h3 mr-2 "></div>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center">
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                      <li class="page-item"><a class="page-link" href="#">上一页</a></li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item"><a class="page-link" href="#">下一页</a></li>
-                    </ul>
-                  </nav>
-            </div>      
+            
             <div class="purchase text-center">
                 <h1>卡片展示区</h1>
                 <p>Lorem, ipsum dolor sit ame!</p>
@@ -250,7 +208,6 @@
                 </div>
             </div>
         </section>
-
         <section class="section-3 container-fluid p-0 text-center">
           <div class="row">
             <div class="col-md-12 col-sm-12">
@@ -295,7 +252,7 @@
           <div class="col-md-4 col-12 text-center">
             <div class="card mr-2 d-inline-block shadow-lg">
               <div class="card-img-top">
-                <img src="../img/p1.png" alt="Member" class="img-fluid border-radius p-4">
+                <img src="../img/p1.png"  class="img-fluid border-radius p-4">
               </div>
               <div class="card-body">
                 <h3 class="card-title">路人甲</h3>
@@ -304,14 +261,14 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 col-12">
             <!-- 卡片轮播区域 -->
               <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
+                  <div class="carousel-inner text-center">
                     <div class="carousel-item active">
-                        <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card mr-2 d-inline-block shadow">
                             <div class="card-img-top">
-                              <img src="../img/5201.png" alt="Member" class="img-fluid rounded-circle w-50 p-4">
+                              <img src="../img/5201.png" class="img-fluid rounded-circle w-50 p-4">
                             </div>
                             <div class="card-body">
                               <h3 class="card-title">卡片乙</h3>
@@ -321,7 +278,7 @@
                           </div>
                     </div>
                     <div class="carousel-item text-center">
-                        <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card mr-2 d-inline-block shadow">
                             <div class="card-img-top">
                               <img src="../img/5201.png" alt="Member" class="img-fluid rounded-circle w-50 p-4">
                             </div>
