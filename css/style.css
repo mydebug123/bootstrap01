@@ -1,0 +1,209 @@
+/* index的样式 */
+/*谷歌字体引用*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
+
+*{box-sizing: border-box;}
+header,section{overflow-x:hidden;}
+
+/*与轮播图的间隔距离*/
+.section-1{padding: 5vmin 0;}
+/*网站介绍图片样式*/
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+/* 文字区域左移 */
+.section-1 .row .col-md-6:last-child{position: relative;}
+/* 网站介绍标题和文字的 样式 */
+.section-1 .row .col-md-6 .panel{
+    position: relative;
+    top:7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10vmin 2vmin 5vmin 10vmin;
+    box-shadow: 0px 25px 42px rgb(0, 0, 0,0.2);
+    font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+    z-index: 1;
+}
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+    color: rgb(0, 0, 0,0.5);
+}
+.section-2{
+    padding-top: 15vmin;
+    scroll-padding-bottom: 0.1em;
+}
+.cover{
+    width: 100%;
+    height: 30vmin;
+    background: url('p6.png')no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.cover .content{
+    background: rgba(0,0, 0, 0.4);
+    height: 100%;width: 100%;
+    padding-top: 5vmin;
+}
+.cover .content>h1{color: whitesmoke;}
+.cover .content>p{color:#e5e5e5;font-size: 2vmin;}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;height: 12rem;
+    padding-top: 3.5v min;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 30px 0px rgba(23, 185, 177, 0.9);
+}
+.numbers{margin-top: -10vmin;}
+.numbers .rect h1{font-size: 5rem;color:rgba(23, 185, 177, 0.9);}
+.purchase>h1{
+    padding-top: 10vmin;
+    scroll-padding-bottom: 0.1em;
+}
+.purchase>p{
+    font-size: 3vmin;
+    padding-bottom: 5vmin;
+}
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards div{padding: 0;margin: 0;}
+.cards .title{
+    background: rgba(208, 241, 241, 0.3);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--lighr-black);
+}
+.card-body .pricing{
+    background: rgba(208, 241, 241, 0.3);
+    border-top-right-radius:170px;
+    border-top-left-radius: 170px;
+}
+.card-body .pricing>h1{
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+}
+.section-3{
+    height: 70vmin;
+    margin-top: 10vmin;
+    background: rgba(129, 236, 236,1.0);
+}
+.section-3 .col-md-12>h1{
+    padding: 2em 0 0.5em 0;
+    color: salmon;
+    font-size: 6vmin;
+}
+.section-3 .col-md-12>p{
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: rgb(241, 237, 210);
+    font-size: 3vmin;
+}
+/* 图标父类的样式 */
+.section-3 .desktop{
+    background: white;
+    display:inline-block;
+    border-radius: 3em;
+    padding: 1vmin 5.5vmin;
+    margin: 1em;
+}
+.section-3 .desktop h3{font-size: 4vmin;}
+.section-3 .desktop p{font-size: 2vmin;}
+
+/* 卡片区域样式 */
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+.section-4 .team{padding: 10vmin 4vmin;}
+.section-4 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+.section-4 .card .card-text{padding: 0.5em;}
+.section-4 .card.card-body>a{font-size: 1.5em;}
+.section-4 .carousel-item{padding-left: 3rem;}
+.border-radius{border-radius: 340px;width: 60%;}
+/*底部*/
+footer{
+    background: rgba(0, 0, 0,0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+footer p>span{color: #ff512f;}
+footer input{border: none !important;}
+footer input::placeholder{color: white !important;}
+footer .input-group .input-group-text{background: #30b6eb;border: none;}
+footer .column img+img{padding: 0 0.5em;}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }
+/*纯图片区域样式*/   
+ .h1{height:300px ;}
+ .h2{height:350px ;}
+ .h3{height:380px ;}
+ .h1,.h2,.h3{
+     background-image: url('tx.png');
+     background-repeat:no-repeat;
+     background-size: 100%;
+     background-position: center;
+ }
+ .a1{
+     width: 50px;
+     height: 50px;
+ }
+ .row{background: #fff;}
+ 
+ /*内部图片区样式*/
+ .a1{
+     position: absolute;
+     width:100%;
+     height: 50px;
+ }
+ .a{height:500px ;
+     background-image: url('tx.png');
+ }
+ .img{
+     display: flex;
+     width: 100px;
+     height:100px;
+     border-radius: 50%;
+     margin: 0 0;
+ }
+ .img1{
+     background-size:50%;
+ }
+
+ .row{
+     margin-right: 25px;
+     margin-left: -10px;
+ }
+ .img2{
+     background-image: url('like.png');
+     background-position: 20px 20px;
+     background-repeat: no-repeat;
+     border-radius: 50%;
+ }
+ a{padding-left: 30px;
+   font-size: 20px;
+ }

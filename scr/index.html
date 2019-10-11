@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-1.css">
+    <script>
+      function production(){
+        window.location.href="production.html";
+      }
+      function logoin(){
+        window.location.href="logoin.html";
+      }
+    </script>
+</head>
+<body>
+    <!-- 头部导航栏 -->
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                      <img src="../img/whlogo.png" >
+                      主页</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="mr-auto"></div>
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#" onclick="production()">作品<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">摄影师</a>
+                        </li>
+                        <!-- 下拉 -->
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          分类
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">人像</a>
+                            <a class="dropdown-item" href="#">风景</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">人文</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">社区</a>
+                          </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="更多资源" aria-label="Search">
+                        <!-- 默认是禁止的 -->
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+                        <button type="button" class="btn btn-light" onclick="logoin()">登录</button>
+                        <button type="button" class="btn btn-dark">注册</button>
+                      </form>
+                    </div>
+                  </nav>
+                  <!-- 轮播图 -->
+                  <div class="bd-example">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                          </ol>
+                          <!-- 第一个图片 -->
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="../img/p4.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                              </div>
+                            </div>
+                            <!-- 第二个图片 -->
+                            <div class="carousel-item">
+                              <img src="../img/p2.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                            </div>
+                            <!-- 第三个图片 -->
+                            <div class="carousel-item">
+                              <img src="../img/p4.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                  <div class="container text-center">
+                      <div class="row">
+
+                      </div>
+                  </div>
+    </header>
+    <!-- 主体图文区 -->
+    <main>
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="pray">
+                            <img src="../img/tx.png" alt="Pray">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="panel text-left">
+                            <h1>网站介绍区域</h1>
+                            <p class="pt-4">这是一个正经的网站 amet consectetur adipisicing elit. Quibusdam nemo quia, voluptates iusto debitis laborum! Ipsum, accusan</p>
+                            <p>呵呵  是吗？ sit amet consectetur adipisicing elit. Quibusdam nemo quia, voluptates iusto debitis laborum! Ipsum, accusantium sapiente?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+        <!-- 网站数据 -->
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+              <div class="overlay"></div>
+                <div class="content text-center">
+                    <h1>网站数据展示</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio?</p>
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>56892</h1>
+                        <p>AAAA</p>
+                    </div>
+                    <div class="rect">
+                            <h1>32145</h1>
+                            <p>BBBB</p>
+                    </div>
+                    <div class="rect">
+                            <h1>23321</h1>
+                            <p>CCCC</p>
+                    </div>
+                    <div class="rect">
+                        <h1>36666</h1>
+                        <p>DDDD</p>
+                </div>
+                </div>
+            </div>
+            <!-- 图片展示区 -->
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12  " >
+                        <div class="h1 mr-lg-2 bg mb-2">
+                                <p>abc</p>
+                                <div class=" a1">
+                                  <div><img src="../img/tx.png" class="img"></div>
+                                  <div class=""><a href="#">摄影师吴浩</a></div>
+                                  <div><img src="../img/like.png" class="img1"></div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 px-0">
+                        <div class="h1  mr-2 mb-2"></div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 px-0">
+                        <div class="h1 mr-2 mb-2"></div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 px-0">
+                        <div class="h2 mr-lg-2 "></div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 px-0">
+                        <div class="h2 mr-2 "></div>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 px-0">
+                        <div class="h3 mr-lg-2 "></div>
+                    </div>
+                    <div class="col-lg-7 col-sm-12 px-0">
+                        <div class="h3 mr-2 "></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">上一页</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">下一页</a></li>
+                    </ul>
+                  </nav>
+            </div>      
+            <div class="purchase text-center">
+                <h1>卡片展示区</h1>
+                <p>Lorem, ipsum dolor sit ame!</p>
+                <div  class="cards">
+                    <div class="d-flex flex-row justify-content-center flex-wrap">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">AAAA</h5>
+                                </div>
+                                <P class="card-text">sha384-UO2eT0CpH</P>
+                                <div class="pricing">
+                                    <h1>$8888</h1>
+                                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">立即加入</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-body">
+                                    <div class="title">
+                                        <h5 class="card-title">BBBB</h5>
+                                    </div>
+                                    <P class="card-text">sha384-UO2eT0CpH</P>
+                                    <div class="pricing">
+                                        <h1>$8888</h1>
+                                        <a href="#" class="btn btn-dark px-5 py-2 mb-5">立即加入</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-body">
+                                        <div class="title">
+                                            <h5 class="card-title">CCCC</h5>
+                                        </div>
+                                        <P class="card-text">sha384-UO2eT0CpH</P>
+                                        <div class="pricing">
+                                            <h1>$8888</h1>
+                                            <a href="#" class="btn btn-dark px-5 py-2 mb-5">立即加入</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3 container-fluid p-0 text-center">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <h1>网站多平台下载区域</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, harum. Laboriosam, esse quaerat earum mollitia sunt ad ut qui laborum eum voluptate animi iure non minima asperiores blanditiis ratione culpa!</p>
+            </div>
+          </div>
+          <div class="platform row">
+            <!-- pc图标区域 -->
+            <div class="col-md-6 col-sm-12 text-right" >
+              <div class="desktop shadow-lg">
+                <div class="d-flex flex-row justify-content-center">
+                  <img src="../img/pc.png" class="fa-3x py-2 pr-3">
+                  <div class="text text-left">
+                    <h3 class="pt-1 m-0">PC</h3>
+                    <p class="p-0 m-0">On website</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 手机图标区域 -->
+            <div class="col-md-6 col-sm-12 text-left">
+              <div class="desktop shadow-lg">
+                <div class="d-flex flex-row justify-content-center">
+                  <img src="../img/ph.png" class="fa-3x py-2 pr-3">
+                  <div class="text text-left">
+                    <h3 class="pt-1 m-0">Phone</h3>
+                    <p class="p-0 m-0">On website</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <div class="section-4">
+        <!-- 第一个卡片 -->
+        <div class="container text-center">
+          <h1 class="text-dark">AAAAAAAAAAAA</h1>
+          <p class="text-secondary">Lorem ipsum dolor sit amet conse</p>
+        </div>
+        <div class="team row">
+          <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img src="../img/p1.png" alt="Member" class="img-fluid border-radius p-4">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">路人甲</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, reiciendis est fuga, voluptate esse soluta non voluptas placeat itaque totam aperiam quibusdam unde ducimus. Saepe molestias asperiores illo odit debitis!</p>
+                <a href="#" class="text-secodary text-decoration-none">他的主页</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <!-- 卡片轮播区域 -->
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card mr-2 d-inline-block shadow-lg">
+                            <div class="card-img-top">
+                              <img src="../img/5201.png" alt="Member" class="img-fluid rounded-circle w-50 p-4">
+                            </div>
+                            <div class="card-body">
+                              <h3 class="card-title">卡片乙</h3>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, reiciendis est fuga, voluptate esse soluta non voluptas placeat itaque totam aperiam quibusdam unde ducimus. Saepe molestias asperiores illo odit debitis!</p>
+                              <a href="#" class="text-secodary text-decoration-none">他的主页</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="card mr-2 d-inline-block shadow-lg">
+                            <div class="card-img-top">
+                              <img src="../img/5201.png" alt="Member" class="img-fluid rounded-circle w-50 p-4">
+                            </div>
+                            <div class="card-body">
+                              <h3 class="card-title">卡片丙</h3>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, reiciendis est fuga, voluptate esse soluta non voluptas placeat itaque totam aperiam quibusdam unde ducimus. Saepe molestias asperiores illo odit debitis!</p>
+                              <a href="#" class="text-secodary text-decoration-none">他的主页</a>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <!-- 第三个卡片 -->
+          <div class="col-md-4 text-center">
+              <div class="card mr-2 d-inline-block shadow-lg">
+                  <div class="card-img-top">
+                    <img src="../img/p1.png" alt="Member" class="img-fluid border-radius p-4">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">路人丁</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, reiciendis est fuga, voluptate esse soluta non voluptas placeat itaque totam aperiam quibusdam unde ducimus. Saepe molestias asperiores illo odit debitis!</p>
+                    <a href="#" class="text-secodary text-decoration-none">他的主页</a>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- 底部 -->
+    <footer>
+      <div class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-5 col-sm-5">
+            <h1 class="text-light">About US</h1>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="pt-4 text-muted">版权归5号工作室所有 ICP 证: 浙ICP备
+                <span>09109183号-25法律声明</span></p>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <h4 class="text-light">AAAAAAAAAAA</h4>
+            <p class="text-muted">BBBBBBB</p>
+            <form class="form-inline">
+              <div class="col pl-0">
+                <div class="input-group pr-5">
+                  <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="私信我们">
+                  <!-- 输入框旁边的图标 -->
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <img src="../img/sx.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-2 col-sm-12">
+            <h4 class="text-light">关注我们</h4>
+            <p class="text-muted">社交网站</p>
+            <div class="column text-light">
+              <img src="../img/wex.png">
+              <img src="../img/wb.png">
+              <img src="../img/500px.png">
+              <img src="../img/Youtube.png" >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

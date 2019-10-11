@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/logoin.css">
+    <title>看似很酷炫但没啥用的登录页面</title>
+</head>
+<body>
+    <form action="login.html" class="login-form">
+        <h1>DeBug.com</h1>
+            <div class="txtb">
+            <input type="text">
+            <span data-placeholder="请输入用户名" id="uname"></span>
+        </div>
+        <div class="txtb">
+            <input type="password">
+            <span data-placeholder="请输入密码" id="upwd"></span>
+        </div>
+        <input type="submit" class="logbtn" value="登录" onclick="login()">
+        <div class="bottom-text">
+            忘记密码/账号问题？<a href="#">点我</a>
+        </div>
+    </form>
+    <script type="text/javascript">
+        $(".txtb input").on("focus",function(){
+            $(this).addClass("focus");
+        });
+        $(".txtb input").on("blur",function(){
+            if($(this).val() == "")
+            $(this).removeClass("focus");
+        });
+    </script>
+</body>
+</html>
